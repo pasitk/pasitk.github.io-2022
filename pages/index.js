@@ -17,6 +17,10 @@ export async function getStaticProps() {
   }
 }
 
+const myLoader = ({ src, width, quality }) => {
+  return `https://pasitk.github.io/${src}?w=${width}&q=${quality || 75}`
+}
+
 export default function Home({allPortfolioData}) {
   return (
     <Layout home>
@@ -31,6 +35,7 @@ export default function Home({allPortfolioData}) {
           height={144}
           width={144}
           alt={name}
+          loader={myLoader}
         />
       </section>
       <section className={utilStyles.headingSm}>
@@ -57,7 +62,7 @@ export default function Home({allPortfolioData}) {
       </section>
       <section className={utilStyles.headingSm}>
         <h2 className={utilStyles.headingLg}>Contact me</h2>
-        <p><Link href={`mailto: pasitkong.k@gmail.com`}><a>📧 Email</a></Link>&nbsp;&nbsp;&nbsp;<Link href={`https://www.linkedin.com/in/pasitk/`}><a><Image priority src="/images/LI-In-Bug.png" height={15} width={18} alt="LinkedIn" /> LinkedIn</a></Link></p>
+        <p><Link href={`mailto: pasitkong.k@gmail.com`}><a>📧 Email</a></Link>&nbsp;&nbsp;&nbsp;<Link href={`https://www.linkedin.com/in/pasitk/`}><a><Image priority src="/images/LI-In-Bug.png" height={15} width={18} alt="LinkedIn" loader={myLoader} /> LinkedIn</a></Link></p>
       </section>
       <hr className={utilStyles.remark} />
       <section className={utilStyles.headingSm, utilStyles.remark}>
