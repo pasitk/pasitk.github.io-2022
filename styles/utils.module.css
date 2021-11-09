@@ -1,0 +1,110 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXlBold {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.headingMdBold {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.headingSm {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.headingProfilePicture {
+  text-align: center;
+}
+
+.remark {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+
+hr.remark {
+  border-top: 1px dotted #999999;
+  margin-top: 40px;
+}
+
+.superBold {
+  font-weight: 800;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.noMarginTop {
+  margin-top: 0;
+}
+
+.noMarginBottom {
+  margin-bottom: 0;
+}
+
+.noMarginTopBottom {
+  margin-top: 0;
+  margin-bottom: 0;
+}
