@@ -42,7 +42,8 @@ export default function Home({allPortfolioData}) {
         <h2 className={`${utilStyles.headingLg} ${utilStyles.mainHeadColor}`}>Welcome to Pasit's site!</h2>
         <div className={`${utilStyles.mainHeadColorAfter}`}></div>
         <p><b>Pasit Kongkunakornkul is a multi-skilled journalist working as a freelance data journalist and sometimes contributes in-depth domestic and international feature articles for 'THE STANDARD' online news agency in Thailand.</b></p>
-        <p>His main focus on the data journalism side is domestic issues in Thailand. He has covered several feature articles about environmental and human rights problems since he graduated with his Master's degree. While in-depth domestic and international news reporting, another side of his work, focus on COVID-19, geopolitics, technology, politics, and other general situations. He also was the Chevening scholar who got a scholarship from the UK's government to support his master's degree study.</p>
+        <p>His primary focus on the data journalism side is domestic issues in Thailand. He has covered several feature articles about environmental and human rights problems since he graduated with his Master's degree. While in-depth domestic and international news reporting, another side of his work, focus on COVID-19, geopolitics, technology, politics, and other general situations. He also was the Chevening scholar who got a scholarship from the UK's government to support his Master's degree study.</p>
+        <p>Before joining THE STANDARD in 2019, he worked in two other TV newsrooms in Thailand from 2017 to 2019. He also worked as a front-end developer at The Stock Exchange of Thailand from 2014 to 2017.</p>
         <p>He is available for data journalism, data visualization, or related assignments internationally.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
