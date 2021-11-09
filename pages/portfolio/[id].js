@@ -31,8 +31,8 @@ export default function Post({ postData }) {
         <article>
             <div className={`${utilStyles.headingMd} ${utilStyles.light} ${utilStyles.noMarginBottom}`}>My Portfolio: {postData.category}</div>
             <h1 className={`${utilStyles.headingXl} ${utilStyles.superBold} ${utilStyles.noMarginTop}`}>{postData.title}</h1>
-            <div className={`${utilStyles.headingSm} ${utilStyles.bold}`}>Original article in {postData.originalLang} language published at: <Link href={postData.originalLink}><a>{postData.publisher}</a></Link></div>
-            <div className={`${utilStyles.lightText}`}>{postData.author} <i>(Author)</i>, {postData.photo} <i>(Photographer)</i></div>
+            <div className={`${utilStyles.headingSm}`}><span className={`${utilStyles.bold}`}>Original article in {postData.originalLang} language published at: <Link href={postData.originalLink}><a>{postData.publisher}</a></Link></span> {postData.publisherDesc}</div>
+            <div className={`${utilStyles.lightText}`}>{postData.author} <i>(Author)</i>{postData.photo==""?'':', '}{postData.photo} {postData.photo==""?'':<i>(Photographer)</i>}</div>
             <div className={`${utilStyles.lightText} ${utilStyles.remark}`}>
               <Date dateString={postData.date} />
             </div>

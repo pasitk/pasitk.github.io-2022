@@ -1,7 +1,8 @@
 ---
 title: 'PM2.5 sources and trends in Bangkok: How much do we know about it?'
-date: '2020-02-02'
-publisher: 'THE STANDARD (Thai news agency)'
+date: '2021-02-02'
+publisher: 'THE STANDARD'
+publisherDesc: '(Thai news agency)'
 originalLang: 'Thai'
 originalLink: 'https://bit.ly/3mOaVyy'
 author: 'Pasit Kongkunakornkul'

@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
             <div className={styles.siteName}>
                 <Link href="/">
                   <a>
-                    <div><span className={`${utilStyles.headingXl} ${utilStyles.superBold}`}>Pasit</span><span className={utilStyles.headingXl}> Kongkunakornkul</span></div>
+                    <div><span className={`${utilStyles.headingXl} ${utilStyles.superBold}`}>Pasit</span><span className={`${utilStyles.headingXl} ${utilStyles.light}`}> Kongkunakornkul</span></div>
                   </a>
                 </Link>
             </div>
@@ -73,7 +73,7 @@ export default function Layout({ children, home }) {
       <main className={styles.container}>
         {children}
         {!home && (
-          <div className={styles.backToHome}>
+          <div className={`${styles.backToHome} ${utilStyles.light}`}>
             <Link href="/">
               <a>← Back to home</a>
             </Link>
