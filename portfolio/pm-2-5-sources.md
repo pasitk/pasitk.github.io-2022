@@ -8,6 +8,7 @@ originalLink: 'https://bit.ly/3mOaVyy'
 author: 'Pasit Kongkunakornkul'
 photo: 'Sakdipat Prapatworakun'
 category: 'Data Journalism'
+linkOrText: 'T'
 ---
 
 ![PM2.5 problem in Bangkok](/images/portfolio/pm2-5/PM-1.jpg)

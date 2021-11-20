@@ -8,6 +8,7 @@ originalLink: 'https://bit.ly/3EVhdlW'
 author: 'Pasit Kongkunakornkul'
 photo: ''
 category: 'Thailand News / In-depth Feature'
+linkOrText: 'T'
 ---
 
 **Among the outbreak of COVID-19, the new semester opening date of many schools in Thailand has been postponed to July 2020. Thailand’s ministry of education has launched the remote studying process through TV programs and online platforms for students who could not return to their schools. However, there are some concerns about the readiness of Thai students, especially when several media outlets reveal that many families are not ready or have to buy a new TV or mobile phone to support their kids.**

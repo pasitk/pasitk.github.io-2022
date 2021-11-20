@@ -50,11 +50,17 @@ export default function Home({allPortfolioData}) {
         <h2 className={`${utilStyles.headingLg} ${utilStyles.mainHeadColor}`}>Portfolio <span className={`${utilStyles.remark} ${utilStyles.light}`}>(will be updated further soon...)</span></h2>
         <div className={`${utilStyles.mainHeadColorAfter}`}></div>
         <ul className={utilStyles.list}>
-          {allPortfolioData.map(({ id, date, title, publisher, category }) => (
+          {allPortfolioData.map(({ id, date, title, publisher, category, originalLink, originalLang, linkOrText }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/portfolio/${id}`}>
-                <a>{title}</a>
-              </Link>
+              {(linkOrText == "L")? 
+                <Link href={`${originalLink}`}>
+                  <a target="_blank">{title}</a>
+                </Link>
+              :
+                <Link href={`/portfolio/${id}`}>
+                  <a>{title}</a>
+                </Link>
+              }
               <br />
               <small className={`${utilStyles.lightText}`}>{publisher} | {category} • <small className={`${utilStyles.bold}`}><Date dateString={date} /></small>
               </small>

@@ -8,6 +8,7 @@ originalLink: 'https://bit.ly/3C0uXtS'
 author: 'Pasit Kongkunakornkul'
 photo: 'YE AUNG THU / AFP'
 category: 'International News / Explainer'
+linkOrText: 'T'
 ---
 
 The political crisis in Myanmar following the elections last year led to the seizure of power by the military. The prominent leaders of the National League for Democracy (NLD) party were detained, followed by the announcement of a year-long state of emergency in the country, and the vice president was appointed as the interim president on February 1. The coup halted Myanmar’s progress on the path of democratic reform after the executive, legislative and judicial powers were transferred back into the hands of the military once again.
