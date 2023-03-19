@@ -8,7 +8,7 @@ export const siteTitle = 'Pasit Kongkunakornkul'
 
 export default function Layout({ children, home }) {
   return (
-    <div>
+    <div className={`${home?styles.homePage:""}`}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -70,7 +70,7 @@ export default function Layout({ children, home }) {
         )} */
         }
       </header>
-      <main className={styles.container}>
+      <main className={`${styles.container}`}>
         {children}
         {!home && (
           <div className={`${styles.backToHome} ${utilStyles.light}`}>
