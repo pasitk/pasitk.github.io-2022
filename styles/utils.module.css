@@ -1,6 +1,11 @@
 .aside {
   display: inline-block;
   width: 35%;
+  padding: 0 1rem;
+}
+
+.bodyExcludeHeader {
+  display: flex;
 }
 
 .heading2Xl {
@@ -120,6 +125,7 @@ hr.remark {
 .main {
   display: inline-block;
   width: 65%;
+  padding: 0 1rem;
 }
 
 .mainHeadColor {

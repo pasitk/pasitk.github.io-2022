@@ -27,7 +27,7 @@ export default function Home({allPortfolioData}) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section>
+      <section className={utilStyles.bodyExcludeHeader}>
         <aside className={utilStyles.aside}>
           <section className={utilStyles.headingProfilePicture}>
             <Image
