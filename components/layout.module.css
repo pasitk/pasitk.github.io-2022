@@ -13,9 +13,9 @@
   background-position: 0% 0%;
 
   /* CSS gradients */
-  background-image: -moz-linear-gradient(transparent 0%, transparent 10vh, rgba(255,255,255,1) 50vh), url('/images/bg1.jpg');
-  background-image: -webkit-gradient(transparent 0%, transparent 10vh, rgba(255,255,255,1) 50vh), url('/images/bg1.jpg');
-  background-image: linear-gradient(transparent 0%, transparent 10vh, rgba(255,255,255,1) 50vh), url('/images/bg1.jpg');
+  background-image: -moz-linear-gradient(transparent 0%, transparent 10vh, rgba(255,255,255,1) 80vh), url('/images/bg1.jpg');
+  background-image: -webkit-gradient(transparent 0%, transparent 10vh, rgba(255,255,255,1) 80vh), url('/images/bg1.jpg');
+  background-image: linear-gradient(transparent 0%, transparent 10vh, rgba(255,255,255,1) 80vh), url('/images/bg1.jpg');
   /* background-image: url('/images/bg_london.jpg'), 
   /* background-image: url('/images/bg_london.jpg'), 
                     -moz-linear-gradient(top, #ADB2B6 0%, #ABAEB3 100%);
