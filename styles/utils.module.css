@@ -5,6 +5,11 @@
   background-image: linear-gradient(rgba(21,76,121,.25),rgba(21,76,121,0) 100vh);
 }
 
+.article {
+  max-width: 42rem;
+  margin: 3.5rem auto;
+}
+
 .bodyExcludeHeader {
   display: flex;
 }
