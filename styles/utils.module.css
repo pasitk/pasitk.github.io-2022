@@ -1,17 +1,43 @@
-.aside {
-  display: inline-block;
-  width: 30%;
-  padding: 3rem 1.5rem;
-  background-image: linear-gradient(rgba(136,190,234,.25),rgba(136,190,234,0) 100vh);
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .aside {
+    width: 100%;
+    padding: 3rem 1.5rem;
+    background-image: linear-gradient(rgba(136,190,234,.25),rgba(136,190,234,0) 100vh);
+  }
+
+  .bodyExcludeHeader {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .aside {
+    display: inline-block;
+    width: 30%;
+    padding: 3rem 1.5rem;
+    background-image: linear-gradient(rgba(136,190,234,.25),rgba(136,190,234,0) 100vh);
+  }
+
+  .bodyExcludeHeader {
+    display: flex;
+  }
+
+  .main {
+    display: inline-block;
+    width: 70%;
+    padding: 3rem 1.5rem;
+  }
 }
 
 .article {
   max-width: 42rem;
   margin: 3.5rem auto;
-}
-
-.bodyExcludeHeader {
-  display: flex;
 }
 
 .heading2Xl {
@@ -126,12 +152,6 @@ hr.remark {
 .noMarginTopBottom {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.main {
-  display: inline-block;
-  width: 70%;
-  padding: 3rem 1.5rem;
 }
 
 .mainHeadColor {
