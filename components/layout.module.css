@@ -13,9 +13,9 @@
   background-position: 0% 0%;
 
   /* CSS gradients */
-  background-image: -moz-linear-gradient(rgba(21,76,121,0.5) 0%, rgba(255,255,255,1) 80vh);
-  background-image: -webkit-gradient(rgba(21,76,121,0.5) 0%, rgba(255,255,255,1) 80vh);
-  background-image: linear-gradient(rgba(21,76,121,0.5) 0%, rgba(255,255,255,1) 80vh);
+  background-image: -moz-linear-gradient(rgba(128,128,128,0.1) 0%, rgba(255,255,255,1) 80vh);
+  background-image: -webkit-gradient(rgba(128,128,128,0.1) 0%, rgba(255,255,255,1) 80vh);
+  background-image: linear-gradient(rgba(128,128,128,0.1) 0%, rgba(255,255,255,1) 80vh);
   /* background-image: url('/images/bg_london.jpg'), 
   /* background-image: url('/images/bg_london.jpg'), 
                     -moz-linear-gradient(top, #ADB2B6 0%, #ABAEB3 100%);

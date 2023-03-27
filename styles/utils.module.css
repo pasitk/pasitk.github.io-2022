@@ -1,6 +1,6 @@
 .aside {
   display: inline-block;
-  width: 35%;
+  width: 30%;
   padding: 3rem 1.5rem;
   background-image: linear-gradient(rgba(21,76,121,.25),rgba(21,76,121,0) 100vh);
 }
@@ -130,7 +130,7 @@ hr.remark {
 
 .main {
   display: inline-block;
-  width: 65%;
+  width: 70%;
   padding: 3rem 1.5rem;
 }
 
