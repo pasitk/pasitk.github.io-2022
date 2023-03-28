@@ -65,8 +65,16 @@ export default function Home({allPortfolioData}) {
                 <div className={`${utilStyles.smallText} ${utilStyles.lightText}`}><b>Seismic shifts</b> (published in this <Link href={`https://www.reuters.com/markets/global-markets-wrapup-1-pix-2022-12-22/`}><a>article</a></Link>)</div>
               </div>
               <div>
-                <div><Image priority src="/images/chart2.jpeg" height={278} width={456} alt="Seismic shifts" loader={myLoader} /></div>
+                <div><Image priority src="/images/chart2.jpeg" height={278} width={456} alt="Projected GDP and consumption growth" loader={myLoader} /></div>
                 <div className={`${utilStyles.smallText} ${utilStyles.lightText}`}><b>Projected GDP and consumption growth</b> (published in this <Link href={`https://www.reuters.com/markets/europe/germans-spending-less-soaring-power-food-costs-gnaw-finances-2022-12-01/`}><a>article</a></Link>)</div>
+              </div>
+              <div>
+                <div><Image priority src="/images/chart3.png" height={278} width={278} alt="German consumer woes" loader={myLoader} /></div>
+                <div className={`${utilStyles.smallText} ${utilStyles.lightText}`}><b>German consumer woes</b> (published in this <Link href={`https://www.reuters.com/markets/europe/germans-spending-less-soaring-power-food-costs-gnaw-finances-2022-12-01/`}><a>article</a></Link>)</div>
+              </div>
+              <div>
+                <div><Image priority src="/images/chart4.png" height={278} width={351} alt="Global gender gap breakdown" loader={myLoader} /></div>
+                <div className={`${utilStyles.smallText} ${utilStyles.lightText}`}><b>Global gender gap breakdown</b> (published in this <Link href={`https://www.reuters.com/world/mans-world-gender-parity-will-take-more-than-five-generations-2023-03-08/`}><a>article</a></Link>)</div>
               </div>
             </div>
             <div className={`${utilStyles.mainHeadColorAfter}`}></div>
