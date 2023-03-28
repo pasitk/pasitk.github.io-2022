@@ -111,9 +111,13 @@
   padding-top: 1px;
 }
 
-.contentBoxPadding10px {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .list {

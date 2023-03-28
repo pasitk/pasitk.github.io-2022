@@ -59,7 +59,7 @@ export default function Home({allPortfolioData}) {
             <h2 className={`${utilStyles.headingLg} ${utilStyles.mainHeadColor}`}>Portfolio <span className={`${utilStyles.remark} ${utilStyles.light}`}>(will be updated further soon...)</span></h2>
             <div className={`${utilStyles.mainHeadColorAfter}`}></div>
             <h3 className={`${utilStyles.headingMd} ${utilStyles.mainHeadColor}`}>Graphics</h3>
-            <div className={`${utilStyles.bodyExcludeHeader} ${utilStyles.contentBoxPadding10px}`}>
+            <div className={`${utilStyles.bodyExcludeHeader} ${utilStyles.gallery}`}>
               <div>
                 <div><Image priority src="/images/chart1.gif" height={278} width={330} alt="Seismic shifts" loader={myLoader} /></div>
                 <div className={`${utilStyles.smallText} ${utilStyles.lightText}`}><b>Seismic shifts</b> (published in this <Link href={`https://www.reuters.com/markets/global-markets-wrapup-1-pix-2022-12-22/`}><a>article</a></Link>)</div>
