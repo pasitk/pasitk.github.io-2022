@@ -114,8 +114,8 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 10px;
-  justify-content: space-between;
+  gap: 10px 25px;
+  justify-content: space-around;
   padding-top: 15px;
   padding-bottom: 15px;
 }
