@@ -59,11 +59,19 @@ export default function Home({allPortfolioData}) {
             <h2 className={`${utilStyles.headingLg} ${utilStyles.mainHeadColor}`}>Portfolio <span className={`${utilStyles.remark} ${utilStyles.light}`}>(will be updated further soon...)</span></h2>
             <div className={`${utilStyles.mainHeadColorAfter}`}></div>
             <h3 className={`${utilStyles.headingMd} ${utilStyles.mainHeadColor}`}>Graphics</h3>
-            <br/><br/>
-            <Image priority src="/images/chart1.gif" height={278} width={330} alt="Seismic shifts" loader={myLoader} />
+            <div className={`${utilStyles.bodyExcludeHeader}`}>
+              <div>
+                <Image priority src="/images/chart1.gif" height={278} width={330} alt="Seismic shifts" loader={myLoader} /><br/>
+                <b>Seismic shifts</b> (published in this <Link href={`https://www.reuters.com/markets/global-markets-wrapup-1-pix-2022-12-22/`}><a>article</a></Link>)
+              </div>
+              <div>
+                <Image priority src="/images/chart2.jpeg" height={278} width={456} alt="Seismic shifts" loader={myLoader} /><br/>
+                <b>Projected GDP and consumption growth</b> (published in this <Link href={`https://www.reuters.com/markets/europe/germans-spending-less-soaring-power-food-costs-gnaw-finances-2022-12-01/`}><a>article</a></Link>)
+              </div>
+            </div>
             <div className={`${utilStyles.mainHeadColorAfter}`}></div>
             <h3 className={`${utilStyles.headingMd} ${utilStyles.mainHeadColor}`}>News articles / Data stories</h3>
-            <br/><br/>
+            <br/><
             <ul className={utilStyles.list}>
               {allPortfolioData.map(({ id, date, title, publisher, category, originalLink, originalLang, linkOrText }) => (
                 <li className={utilStyles.listItem} key={id}>
