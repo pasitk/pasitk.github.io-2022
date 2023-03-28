@@ -71,7 +71,7 @@ export default function Home({allPortfolioData}) {
             </div>
             <div className={`${utilStyles.mainHeadColorAfter}`}></div>
             <h3 className={`${utilStyles.headingMd} ${utilStyles.mainHeadColor}`}>News articles / Data stories</h3>
-            <br/><
+            <br/>
             <ul className={utilStyles.list}>
               {allPortfolioData.map(({ id, date, title, publisher, category, originalLink, originalLang, linkOrText }) => (
                 <li className={utilStyles.listItem} key={id}>
