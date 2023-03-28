@@ -58,6 +58,10 @@ export default function Home({allPortfolioData}) {
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
             <h2 className={`${utilStyles.headingLg} ${utilStyles.mainHeadColor}`}>Portfolio <span className={`${utilStyles.remark} ${utilStyles.light}`}>(will be updated further soon...)</span></h2>
             <div className={`${utilStyles.mainHeadColorAfter}`}></div>
+            <h3 className={`${utilStyles.mainHeadColor}`}>Graphics</h3>
+            <Image priority src="/images/chart1.gif" height={139} width={165} alt="Seismic shifts" loader={myLoader} />
+            <div className={`${utilStyles.mainHeadColorAfter}`}></div>
+            <h3 className={`${utilStyles.mainHeadColor}`}>News articles / Data stories</h3>
             <ul className={utilStyles.list}>
               {allPortfolioData.map(({ id, date, title, publisher, category, originalLink, originalLang, linkOrText }) => (
                 <li className={utilStyles.listItem} key={id}>
