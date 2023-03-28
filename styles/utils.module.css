@@ -82,6 +82,11 @@
   line-height: 1.5;
 }
 
+.smallText {
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
 .headingProfilePicture {
   text-align: center;
 }
@@ -104,6 +109,11 @@
 
 .padding1px {
   padding-top: 1px;
+}
+
+.contentBoxPadding10px {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .list {
